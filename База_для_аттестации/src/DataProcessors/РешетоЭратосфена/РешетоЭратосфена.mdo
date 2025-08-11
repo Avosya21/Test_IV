@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cdb3b2e-32bf-486b-86b3-2ff368ca2c41">
+  <producedTypes>
+    <objectType typeId="24d02a2a-bb02-4365-92c8-da7ba07a3324" valueTypeId="e8d658c3-edb7-4814-8e94-403da97c5f3b"/>
+    <managerType typeId="24e4b789-60cf-410a-a34b-1f4706cd992e" valueTypeId="4f03e537-e159-48c0-b128-c04517dd4ef7"/>
+  </producedTypes>
+  <name>РешетоЭратосфена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Решето эратосфена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РешетоЭратосфена.Form.Форма</defaultForm>
+  <forms uuid="d4fbde63-f375-4bd6-8e5b-0d452a597972">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

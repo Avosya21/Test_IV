@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0f20f76-5ca7-4243-a783-6b32633d385d">
+  <producedTypes>
+    <objectType typeId="cec828c5-6ff5-4981-99dd-e6f97187f2a7" valueTypeId="2ae94a9d-ca1d-47af-9fec-1bca0b053fca"/>
+    <managerType typeId="d8269905-a217-42fd-b3d7-fc5605b7ad65" valueTypeId="2b0f47da-906e-4cbb-b8a8-381e3fcf878a"/>
+  </producedTypes>
+  <name>РаспределениеБюджетаЗаПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распределение бюджета за период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаспределениеБюджетаЗаПериод.Form.Форма</defaultForm>
+  <forms uuid="4fb3f242-c3cc-493b-80a2-2d504da8ec23">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

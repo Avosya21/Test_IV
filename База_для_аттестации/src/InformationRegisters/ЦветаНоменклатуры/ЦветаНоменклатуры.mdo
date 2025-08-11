@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="962584cc-1bcb-406a-89fd-5192f54852b2">
+  <producedTypes>
+    <selectionType typeId="b83b413e-f636-4bff-b018-b25784e3b256" valueTypeId="5418bdae-0e61-4a97-adf7-933d2732e468"/>
+    <listType typeId="36109449-cfbc-43cf-b437-cc47c30d8c01" valueTypeId="3fd38c4d-18e4-4b91-8b8e-a28c0d3dd0e1"/>
+    <managerType typeId="87cd120b-6441-4d3e-8e6f-bf355da1be86" valueTypeId="9dfdc10d-de69-4aa7-83d7-82377d6d6d5c"/>
+    <recordSetType typeId="24c92521-e855-437a-9ac4-873ab02f0ec4" valueTypeId="fe6c1233-c951-4650-bed3-ebc59caf2b4e"/>
+    <recordKeyType typeId="5a6b0fc1-4552-4cb3-823d-47d391d23425" valueTypeId="25c91d42-b681-4423-8399-113ba6b1257b"/>
+    <recordType typeId="598ddce5-8064-4bdf-8e98-d97b43c50cb4" valueTypeId="54a92543-1685-4005-a132-e6bb90a2d5c7"/>
+    <recordManagerType typeId="286b27be-ae1d-4164-8929-0903780fe589" valueTypeId="7be2dca1-0921-4f7c-8fe5-3de744d09cc0"/>
+  </producedTypes>
+  <name>ЦветаНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвета номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <resources uuid="773874c3-46f8-4284-92c3-02e3668a4e45">
+    <name>Цвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="1f12d10f-4d30-42b7-b95a-9b4e69bcfc3c">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

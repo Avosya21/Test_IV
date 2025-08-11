@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c5ca5af-61c2-41ab-8d75-02d815c30d39">
+  <producedTypes>
+    <selectionType typeId="e60f777a-babb-4078-b788-cf4a6bf8cf22" valueTypeId="275c31ee-bd5b-4b9d-8653-3f26291fa2e9"/>
+    <listType typeId="07aff09e-dac4-45de-aee2-4da54599073d" valueTypeId="61e8a0f6-9a27-448e-b3be-80a270fffd71"/>
+    <managerType typeId="30928c95-38d2-4ab0-8f28-522c27f9c25d" valueTypeId="f809494b-593f-4404-8926-ad7c93a7bf1f"/>
+    <recordSetType typeId="4c4d0dd3-2259-4217-ad2e-e731bb4faf92" valueTypeId="7d086883-586e-401c-9c2b-8a018753ff7d"/>
+    <recordKeyType typeId="45038535-bd07-4c1a-b48b-a406b20912f1" valueTypeId="5a9f560a-40f8-4960-990d-324dabd44113"/>
+    <recordType typeId="5a922811-1706-4054-bcc1-57dee69a52ee" valueTypeId="da64db3b-af69-47d7-ada2-0b6728e209e6"/>
+    <recordManagerType typeId="083bf539-fb8e-42f7-b31b-c3374d2d2357" valueTypeId="a863a7e9-2642-4e5d-9c93-8f8f1e4312a1"/>
+  </producedTypes>
+  <name>ДанныеОСотрудниках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные о сотрудниках</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <resources uuid="6867262a-4e42-482c-a489-8197000fbf2b">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="302e165c-0f55-48fc-9f36-0f976a19b758">
+    <name>Возраст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возраст</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f610d51c-9492-4998-a395-9c8f1755e420">
+    <name>Email</name>
+    <synonym>
+      <key>ru</key>
+      <value>Email</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="1b58c095-c0d3-4f4b-aee7-e9f0b1c88a39">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
